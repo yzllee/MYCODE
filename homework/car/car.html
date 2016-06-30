@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>科目一试题</title>
+    <link rel="stylesheet" href="car.css"/>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<div id="box">
+    <div id="title"><span id="t"></span></div>
+    <div id="right"></div>
+    <div id="item">
+        <form>
+            <ul id="answers">
+                <li><input id="answera" type="radio" name="answer" value="A" ><label for="answera"></label></li>
+                <li><input id="answerb" type="radio" name="answer" value="B" ><label for="answerb"></label></li>
+                <li><input id="answerc" type="radio" name="answer" value="C" ><label for="answerc"></label></li>
+                <li><input id="answerd" type="radio" name="answer" value="D" ><label for="answerd"></label></li>
+            </ul>
+        </form>
+    </div>
+    <span id="judge"></span>
+    <div id="tip">
+        <button id="last">上一题</button>
+        <button id="next">下一题</button>
+        <button id="desc">本题解释</button>
+    </div>
+</div>
+<script src="car.js"></script>
+</body>
+</html>
